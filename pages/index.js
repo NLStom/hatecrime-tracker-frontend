@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Hate Crime Tracker</title>
+        <title>Hate Crime Tracker    </title>
         <link rel="icon" href="/asiangirl.png" />
       </Head>
 
