@@ -9,9 +9,9 @@ const MAPBOX_TOKEN = 'pk.eyJ1IjoibmxzdG9tIiwiYSI6ImNrcGJ0eDZ0bzExMmwydm9ma2lwc21
 
 export default function App() {
     const [viewport, setViewport] = useState({
-        latitude: 40,
-        longitude: -100,
-        zoom: 3,
+        latitude: 42,
+        longitude: -111,
+        zoom: 4,
         bearing: 0,
         pitch: 0
     });
@@ -55,7 +55,7 @@ export default function App() {
             <MapGL
                 {...viewport}
                 width="100vw"
-                height="80vh"
+                height="78vh"
                 mapStyle="mapbox://styles/mapbox/light-v9"
                 onViewportChange={setViewport}
                 mapboxApiAccessToken={MAPBOX_TOKEN}
