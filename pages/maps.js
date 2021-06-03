@@ -3,6 +3,7 @@ import Head from 'next/head'
 import Nav from "../components/Nav"
 import Footer from "../components/Footer"
 import Maps from '../components/Maps'
+import MapsNew from '../components/MapsNew'
 export default function Home() {
     return (
         <div>
@@ -10,7 +11,7 @@ export default function Home() {
 
             <Nav></Nav>
 
-            <Maps></Maps>
+            <MapsNew></MapsNew>
 
             <Footer></Footer>
 

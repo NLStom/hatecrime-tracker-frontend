@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import ReactMapGL from 'react-map-gl';
 
 const MAPBOX_TOKEN = 'pk.eyJ1IjoibmxzdG9tIiwiYSI6ImNrcGJ0eDZ0bzExMmwydm9ma2lwc211cTEifQ.NEjWhFL7Cxzmf3ctFDxmMw';
